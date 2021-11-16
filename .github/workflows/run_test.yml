@@ -2,7 +2,7 @@ name: Run Tests
 
 on:
   pull_request:
-    types: [created, reopened]
+    branches: [ main ]
 
 jobs:
   node_tests:
